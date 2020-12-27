@@ -1,3 +1,5 @@
+#include "secrets.h"
+
 #include <NtpClientLib.h>
 #include <Servo.h>
 #include <ESP8266WiFi.h>
@@ -45,8 +47,8 @@ bool was_high = false;
 #define TIMER_BLOCKED 2000
 unsigned long blocked_timer;
 
-char ssid[] = "yourwifissid";
-char pass[] = "yourwifipassword";
+char ssid[] = WIFI_SSID;
+char pass[] = WIFI_PASSWORD;
 int status = WL_IDLE_STATUS;
 
 WiFiClient client;
@@ -54,12 +56,6 @@ WiFiClient client;
 int8_t timeZone = 1;
 int8_t minutesTimeZone = 0;
 const PROGMEM char *ntpServer = "pool.ntp.org";
-
-#define MQTT_SERVER "192.168.2.52"
-#define MQTT_SERVERPORT 1883
-#define MQTT_CID "MisterCreosote"
-#define MQTT_USERNAME "yourusername"
-#define MQTT_KEY "yourpassword"
 
 Adafruit_MQTT_Client mqtt(&client, MQTT_SERVER, MQTT_SERVERPORT, MQTT_CID, MQTT_USERNAME, MQTT_KEY);
 Adafruit_MQTT_Subscribe feed_subscribe = Adafruit_MQTT_Subscribe(&mqtt, "futterautomat/feed");
