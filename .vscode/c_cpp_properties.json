@@ -1,45 +1,125 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
-            "name": "Arduino ESP8266",
+            "name": "PlatformIO",
             "includePath": [
-                "${workspaceRoot}",
-                "C:/Users/david/AppData/Local/Arduino15/packages/esp8266/**",
-                "C:/Users/david/Documents/Arduino/libraries/Adafruit_MQTT_Library",
-                "C:/Users/david/Documents/Arduino/libraries/Servo/src",
-                "C:/Users/david/Documents/Arduino/libraries/NtpClientLib/src",
-                "C:/Users/david/Documents/Arduino/libraries/Time",
-                "C:/Users/david/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.1/**",
-                "C:/Users/david/AppData/Local/Arduino15/packages/esp8266/tools/**"
-            ],
-            "forcedInclude": [
-                "C:/Users/david/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.1/cores/ESP8266/Arduino.h"
+                "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/include",
+                "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
+                "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/NtpClientLib/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
+                "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/Time",
+                "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/PubSubClient/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src",
+                ""
             ],
             "browse": {
-                "path": [
-                    "${workspaceRoot}",
-                    "C:/Users/david/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.1/libraries/ESP8266WiFi/src",
-                    "C:/Users/david/Documents/Arduino/libraries/Adafruit_MQTT_Library",
-                    "C:/Users/david/Documents/Arduino/libraries/Servo/src",
-                    "C:/Users/david/Documents/Arduino/libraries/NtpClientLib/src",
-                    "C:/Users/david/Documents/Arduino/libraries/Time"
-                ],
                 "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
+                "path": [
+                    "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/include",
+                    "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
+                    "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/NtpClientLib/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
+                    "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/Time",
+                    "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/PubSubClient/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src",
+                    ""
+                ]
             },
-            "compilerPath": "C:\\Users\\david\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\bin\\avr-gcc.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
-        },
-        {
-            "name": "Win32",
-            "includePath": [
-                "C:\\Users\\david\\Documents\\Arduino\\libraries\\NtpClientLib\\src"
-            ],
-            "forcedInclude": [],
             "defines": [
-                "USBCON"
+                "PLATFORMIO=50100",
+                "ESP8266",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_ESP8266_NODEMCU",
+                "F_CPU=80000000L",
+                "__ets__",
+                "ICACHE_FLASH",
+                "ARDUINO=10805",
+                "ARDUINO_BOARD=\"PLATFORMIO_NODEMCUV2\"",
+                "FLASHMODE_DIO",
+                "LWIP_OPEN_SRC",
+                "NONOSDK22x_190703=1",
+                "TCP_MSS=536",
+                "LWIP_FEATURES=1",
+                "LWIP_IPV6=0",
+                "VTABLES_IN_FLASH",
+                ""
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/david/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe",
+            "compilerArgs": [
+                "-mlongcalls",
+                "-mtext-section-literals",
+                ""
             ]
         }
     ],
