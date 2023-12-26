@@ -13,3 +13,5 @@ void processIni();
 void processAwaiting();
 
 void outputFeed();
+
+void printDetail(uint8_t type, int value);

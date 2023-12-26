@@ -10,7 +10,9 @@
             "includePath": [
                 "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/include",
                 "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/src",
+                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
+                "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/DFRobotDFPlayerMini",
                 "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/NtpClientLib/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
@@ -42,7 +44,6 @@
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
-                "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
                 "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
@@ -54,7 +55,9 @@
                 "path": [
                     "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/include",
                     "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/src",
+                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
+                    "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/DFRobotDFPlayerMini",
                     "C:/Users/david/source/cyberdns/MrCreosoteCatFeeder/.pio/libdeps/nodemcuv2/NtpClientLib/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
@@ -86,7 +89,6 @@
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
-                    "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
                     "C:/Users/david/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
@@ -95,7 +97,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=50100",
+                "PLATFORMIO=60111",
                 "ESP8266",
                 "ARDUINO_ARCH_ESP8266",
                 "ARDUINO_ESP8266_NODEMCU",
@@ -113,7 +115,7 @@
                 "VTABLES_IN_FLASH",
                 ""
             ],
-            "cStandard": "c99",
+            "cStandard": "gnu99",
             "cppStandard": "c++11",
             "compilerPath": "C:/Users/david/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe",
             "compilerArgs": [
